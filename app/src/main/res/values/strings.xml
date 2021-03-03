@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Duck</string>
     <string name="textView2">It is a duck</string>
+    <string name="imageView">\\;</string>
 </resources>
