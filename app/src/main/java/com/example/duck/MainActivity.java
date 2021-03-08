@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.RadioGroup;
 import android.widget.Switch;
 import android.widget.ToggleButton;
 
@@ -59,6 +60,29 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     //Без сахара
                 }
+                break;
+        }
+    }
+
+//    //Переключатели
+//    //определение какой переключатель в группе установлен
+//    RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+//    int id = radioGroup.getCheckedRadioButtonId();
+//    if (id == -1) {
+//        //ни один переключатель не установлен
+//    } else {
+//        RadioGroup radioButton = findViewById(id);
+//    }
+
+    public  void onRadioButtonClicked(View view){
+        RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+        int id = radioGroup.getCheckedRadioButtonId();
+        switch (id){
+            case R.id.radio_cavemen:
+                //Установлен переключатель Cavemen
+                break;
+            case R.id.radio_astronauts:
+                //Установлен переключатель Astronauts
                 break;
         }
     }
