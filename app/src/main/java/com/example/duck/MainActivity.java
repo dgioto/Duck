@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.RadioGroup;
 import android.widget.Switch;
+import android.widget.Toast;
 import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -85,5 +86,13 @@ public class MainActivity extends AppCompatActivity {
                 //Установлен переключатель Astronauts
                 break;
         }
+    }
+
+    public void onClickHome(View view){
+        CharSequence text = "Go Home MAN!";
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(this, text, duration);
+        toast.show();
     }
 }
