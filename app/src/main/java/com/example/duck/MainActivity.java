@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.checkBox_sugar:
                 if (checked) {
                     //С сахаром
-                }else{
+                } else {
                     //Без сахара
                 }
                 break;

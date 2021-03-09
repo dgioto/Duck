@@ -113,4 +113,14 @@
             android:text="astronauts" />
     </RadioGroup>
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/home"
+        android:text="Button"
+        app:layout_constraintEnd_toStartOf="@+id/switch1"
+        app:layout_constraintStart_toEndOf="@+id/toggleButton"
+        app:layout_constraintTop_toTopOf="@+id/toggleButton" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
