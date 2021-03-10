@@ -44,14 +44,15 @@
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
         android:checked="false"
         android:onClick="onToggleButtonClicked"
         android:padding="16dp"
         android:text="ToggleButton"
         android:textOff="OFF"
         android:textOn="ON"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button" />
 
     <Switch
