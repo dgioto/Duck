@@ -2,4 +2,7 @@
     <string name="app_name">Duck</string>
     <string name="textView2">It is a duck</string>
     <string name="imageView">\\;</string>
+    <string name="home">Go Home MAN!</string>
+    <string name="homeButton">Go Home</string>
+
 </resources>

@@ -89,7 +89,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickHome(View view){
-        CharSequence text = "Go Home MAN!";
+        int text = R.string.home;
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(this, text, duration);
+        toast.show();
+    }
+
+    public void onClickButtonHome(View view){
+        int text = R.string.homeButton;
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(this, text, duration);
